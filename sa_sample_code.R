@@ -1,5 +1,7 @@
 
-fruits <- c("apples", "oranges", "pineapples", "bananas")
-number <- c(5, 4, 8, 10)
+fruits <- c("apples", "oranges", "pineapples", "bananas", "blueberries")
+number <- c(5, 4, 8, 10, 9)
 
-df_fruit <- data.frame(Fruits = fruits, Number = number)
+df_fruits <- data.frame(Fruits = fruits, Number = number)
+
+
