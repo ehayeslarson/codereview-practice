@@ -1,7 +1,7 @@
 data(cars)
 
 set.seed(12345)
-cars$rnum<-rnorm(length(cars$speed), 0, 20)
+cars$rnum<-rnorm(length(cars$speed), 0, 500)
 
 mean(cars$dist)
 
